@@ -10,6 +10,10 @@
  This effect is meant to highlight certain objects inside your gameworld. From the material instance you can change the color, gradients, line thicknes and distance fade.
  How to use: it's most efficient to create an object bp class and add the material from there. The material instance has a custom pass number, which has to be identical to the custom pass number on the mesh itself. Add a simple box as bounding box, overlapping the object and assign the material instance to this box. The box will be invisible and you should see the outline effect on the mesh it overlaps. This simple workflow makes sure the outline won't bleed onto other objects unintentionally.
 
+![UnrealEditor_DaMTuPGtqj](https://github.com/bwvanlith/Shaders_Unreal/assets/47045108/c5a61455-f2c9-415e-a726-56f60808ff4d)
+
+![UnrealEditor_YIHGIWcQDu](https://github.com/bwvanlith/Shaders_Unreal/assets/47045108/b0ca285a-c971-49c4-b4a9-f5219bdac0e9)
+
  ## Unreal Shaders for Postprocessing
  ### Outline Effect
  The outline effect is a basic effect which is based on the outline effect in Borderlands.
