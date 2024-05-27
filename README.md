@@ -4,6 +4,9 @@
  ## Unreal Material Functions
 
  ## Unreal ShaderFX
+ ### Object Outlines
+ This effect is meant to highlight certain objects inside your gameworld. From the material instance you can change the color, gradients, line thicknes and distance fade.
+ How to use: it's most efficient to create an object bp class and add the material from there. The material instance has a custom pass number, which has to be identical to the custom pass number on the mesh itself. Add a simple box as bounding box, overlapping the object and assign the material instance to this box. The box will be invisible and you should see the outline effect on the mesh it overlaps. This simple workflow makes sure the outline won't bleed onto other objects unintentionally.
 
  ## Unreal Shaders for Postprocessing
  ### Outline Effect
