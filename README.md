@@ -2,6 +2,8 @@
  A collection of shaders and material functions for Unreal Engine 4 and 5
 
  ## Unreal Material Functions
+ ### Material Function Collection
+ This is a collection of basic and efficient material logic that can be used inside (master) materials in Unreal Engine 4 and 5. I do not maintain documentation on all functions as most of them are self explanatory. How to use: just drop them in a folder inside your project's content folder and they should be accessable.
 
  ## Unreal ShaderFX
  ### Object Outlines
